@@ -547,8 +547,13 @@ main{
         width: 60%;
     }
 
-    .container-right,.hiring{
-        width:100%;
+    .container-right{
+        width: 100%;
+        padding: 1em 0;
+    }
+
+    .hiring{
+        width: 100%;
     }
 
     .user-profile{
@@ -581,7 +586,7 @@ main{
     }
    
     .flex-bar{
-        position:absolute;
+        position:fixed;
         right: -200px;
         top: 120px;
         height: 100%;
@@ -650,7 +655,6 @@ main{
     .container-center{
         width: 100%;
         padding:0 1em;
-        /* align-items: center; */
     }   
     .header button{
         font-size: 1em;
@@ -663,16 +667,17 @@ main{
         width: 100%;
     }
 
-    .container-right,.hiring{
+    .container-right{
         width: 100%;
+        padding: 1em 0;
     }
 
     .hiring{
-        padding: 0 3em;
+        width: 100%;
     }
 
     .sticky{
-        position: static; /* Or any other appropriate styling */
+        position: static;
         width: auto;
     }
 }
