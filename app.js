@@ -27,7 +27,6 @@ const center = document.querySelector('.container-center');
 
 more.addEventListener("click", ()=>{
     left.classList.toggle("show-more");
-    center.classList.toggle("blur");
 });
 
 // scrolling to bottom should fix the div at a sticky position

@@ -509,6 +509,29 @@ main{
     top: 1em;
     width:20%;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.link{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.link img:first-child{
+    border-radius: 50%;
+    width: 40px;
+}
+
+.link img:nth-child(2){
+    width: 25px;
+}
 
 
 /* responsiveness */
@@ -564,6 +587,13 @@ main{
         position: static;
         width: auto;
     }
+    .link{
+        display: none;
+    }
+
+    .header button{
+        white-space: nowrap;
+    }
 }
 
 @media screen and (max-width:767px){
@@ -584,7 +614,9 @@ main{
     .logo a{
         display: none;
     }
-   
+    .link{
+        display: flex;
+    }
     .flex-bar{
         position:fixed;
         right: -200px;
@@ -635,11 +667,15 @@ main{
         left:-600px;
         top: 120px;
         z-index: 500;
-        background: #ededed;
+        background: #ffffff;
         border-radius: 10px;
         padding: 1em;
         width: 80%;
         transition: left 0.6s ease-in-out;
+    }
+
+    .container-left .scroll:first-child{
+        padding-top: 3em;
     }
 
     .scroll{
