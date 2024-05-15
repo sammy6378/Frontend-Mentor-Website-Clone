@@ -346,6 +346,11 @@ main{
     gap: 10px;
 }
 
+.github img{
+    width: 40px;
+    height: 40px;
+}
+
 .more-text{
     padding: 1em;
 }
@@ -576,7 +581,7 @@ main{
     }
    
     .flex-bar{
-        position:fixed;
+        position:absolute;
         right: -200px;
         top: 120px;
         height: 100%;
