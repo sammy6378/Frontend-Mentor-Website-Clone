@@ -24,12 +24,12 @@ To get a local copy up and running, follow these steps:
 ### Clone the repository:
 
 ```
-git clone https://github.com/sammy6378/Frontend-Mentor-Clone.git
+git clone [https://github.com/sammy6378/Frontend-Mentor-Clone.git](https://github.com/sammy6378/Frontend-Mentor-Website-Clone.git)
 ```
 ### Navigate to the project directory:
 
 ```
-cd frontend-mentor-clone
+cd Frontend-Mentor-Website-Clone
 ```
 ### Open the project in your preferred code editor.
 
