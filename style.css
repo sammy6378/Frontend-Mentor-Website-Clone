@@ -667,6 +667,10 @@ main{
         width: 100%;
     }
 
+    .hiring{
+        padding: 0 3em;
+    }
+
     .sticky{
         position: static; /* Or any other appropriate styling */
         width: auto;
