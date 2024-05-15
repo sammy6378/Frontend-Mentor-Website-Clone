@@ -308,6 +308,7 @@ main{
     margin-top: .6em;
     font-size: 1.1em;
     outline: none;
+    white-space: nowrap;
     cursor: pointer;
     border-radius: 20px;
 }
@@ -607,6 +608,7 @@ main{
         align-items: center;
         margin: 1em 0;
     }
+
     .nav-bar{
         padding: 0 .6em;
     }
